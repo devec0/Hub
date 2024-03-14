@@ -3,21 +3,9 @@ body{
 
 }
 
-.btnwelc{
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    background-color:greenyellow;
-    font-weight: bolder;
-}
 
-.btnpoint{
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-    background-color:orange;
-    font-weight: bolder;
-}
+
+
 
 
 .textup{
@@ -36,3 +24,4 @@ body{
     font-weight: bolder;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
