@@ -1,0 +1,12 @@
+body{
+    background-color: lightslategray;
+}
+
+.teclicker{
+    position: absolute;
+    
+    left:25%;
+    right:25%;
+    
+    
+}
