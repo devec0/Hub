@@ -1,20 +1,29 @@
-body{
-    background-image: url(/Images/Dirt_background_JE2.webp);
-
-}
 @font-face {
-    font-family: 'Minecraftia'; /* Name your font family */
-    src: url('/fonts/Minecraftia-Regular.ttf'); /* Locate the .ttf file within your directory*/
-  }
-  
+  font-family: 'MyCustomFont'; /* Replace with your font name */
+  src: url('fonts/Minecraftia-Regular.ttf') format('truetype'); /* Optional */
+  font-weight: normal; /* Adjust as needed */
+  font-style: normal; /* Adjust as needed */
+}
+
+body {
+  background-image: url('Images/Dirt_background_JE2.webp'); /* Replace with your image path */
+  background-size: cover; /* Options: cover, contain, or specific sizes */
+  background-repeat: repeat; /* Options: repeat, no-repeat */
+  background-position: center; /* Adjusts positioning */
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+
+
   .text {
     color: white;
-    font-family: 'Minecraftia', sans-serif; /* Use the font family */
+    font-family: 'MyCustomFont', sans-serif;
   }
 
   .links{
     text-decoration: none;
     color: yellow;
-    
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: bolder;
   }
   
