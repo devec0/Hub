@@ -1,0 +1,21 @@
+body{
+    background-image: url(/Images/Dirt_background_JE2.png);
+
+}
+@font-face {
+    font-family: 'Minecraftia'; /* Name your font family */
+    src: url('/fonts/Minecraftia-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+  
+  .text {
+    color: white;
+    font-family: 'Minecraftia', sans-serif; /* Use the font family */
+  }
+
+  .links{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Minecraftia', sans-serif; /* Use the font family */
+  }
+  /* upd*/
+  
