@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "PressStart2P";
+  src: url("../fonts/PressStart2P.ttf");
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  font-family: "PressStart2P";
+}
+
+#game-canvas {
+  outline: 1px solid white;
+}
+
+#background-canvas {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
